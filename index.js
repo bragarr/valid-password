@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { routerVerify } from "./routes/verify.js";
+import { routerVerify } from "./src/routes/verify.js";
 
 export const app = express();
 

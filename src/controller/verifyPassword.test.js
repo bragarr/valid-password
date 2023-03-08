@@ -1,5 +1,5 @@
 import { app }  from "../index.js";
-import { dataBasePassword, verifiedPassword } from "../controller/mocks.js";
+import { dataBasePassword, verifiedPassword } from "../src/controller/mocks.js";
 import request from "supertest";
 
 test( "Testing verify with no params", async () => {

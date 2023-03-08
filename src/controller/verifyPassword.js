@@ -1,4 +1,4 @@
-import { validation } from "../src/scripts/validation.js";
+import { validation } from "../scripts/validation.js";
 
 export const response = (_, res) => {
     return res.status(200).json("There is no data to show");
